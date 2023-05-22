@@ -25,18 +25,56 @@
     <nav class="navbar">
       <a href="#" class="navbar-logo">sea<span>foodies</span>.</a>
       <div class="navbar-nav">
-        <a href="#">Home</a>
+        <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="search-btn"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-btn"><i data-feather="shopping-cart"></i></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="cari disini. . . .">
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
+
+         <!-- shopping cart start -->
+    <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="images/product/crab.jpg" alt="crab super">
+        <div class="item-detail">
+          <h3>Crab Super</h3>
+           <div class="item-price">IDR 70K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="images/product/crab.jpg" alt="crab super">
+        <div class="item-detail">
+          <h3>Crab Super</h3>
+           <div class="item-price">IDR 70K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="images/product/crab.jpg" alt="crab super">
+        <div class="item-detail">
+          <h3>Crab Super</h3>
+           <div class="item-price">IDR 70K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+    </div>
+    <!-- shopping cart end -->
     </nav>
     <!-- navbar end -->
+    
 
     <!-- Hero section start -->
     <section class="hero" id="home">
@@ -112,6 +150,81 @@
       </div>
     </section>
     <!-- menu section end -->
+
+    <!-- product section start -->
+    <section id="products" class="products">
+      <h2><span>Produk Unggulan</span> Kami</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis saepe dolorem porro eligendi! Earum, quis?</p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icon">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-img">
+            <img src="images/product/crab.jpg" alt="crab">
+          </div>
+          <div class="product-content">
+            <h3>Crab Super</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 70K <span>IDR 90K</span></div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icon">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-img">
+            <img src="images/product/crab.jpg" alt="crab">
+          </div>
+          <div class="product-content">
+            <h3>Crab Super</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 70K <span>IDR 90K</span></div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icon">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-img">
+            <img src="images/product/crab.jpg" alt="crab">
+          </div>
+          <div class="product-content">
+            <h3>Crab Super</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 70K <span>IDR 90K</span></div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- product section end -->
+
+ 
 
     <!-- contact section start -->
     <section id="contact" class="contact">
