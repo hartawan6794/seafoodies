@@ -402,7 +402,6 @@ body{
     display: flex;
     margin-top: 2rem;
     background-color: #222;
-    /* flex-wrap: wrap; */
 }
 
 .contact .row .map{
@@ -502,7 +501,7 @@ footer .credit a{
     padding: 1.2rem;
     border: 1px solid #666;
     width: 80%;
-    animation: animateModal 1s;
+    animation: animateModal 0.5s;
 }
 
 /* modal animation */
@@ -550,9 +549,7 @@ footer .credit a{
     padding: 1rem 1.6rem;
 }
 
-
 /* Media Queries */
-
 /* laptop */
 @media (max-width: 1366px){
     html{
