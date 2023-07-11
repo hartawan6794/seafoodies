@@ -4,18 +4,18 @@ const searchForm = document.querySelector('.search-form');
 const searchbox = document.querySelector('#search-box');
 const shoppingCart = document.querySelector('.shopping-cart');
 
-//ketika cart icon di klik
-document.querySelector('#shopping-cart-btn').onclick = (e) => {
-    shoppingCart.classList.toggle('active');
-    e.preventDefault();
-}
+// //ketika cart icon di klik
+// document.querySelector('#shopping-cart-btn').onclick = (e) => {
+//     shoppingCart.classList.toggle('active');
+//     e.preventDefault();
+// }
 
-// ketika searchbox menu di klik
-document.querySelector('#search-btn').onclick = (e) => {
-    searchForm.classList.toggle('active');
-    searchbox.focus();
-    e.preventDefault();
-}
+// // ketika searchbox menu di klik
+// document.querySelector('#search-btn').onclick = (e) => {
+//     searchForm.classList.toggle('active');
+//     searchbox.focus();
+//     e.preventDefault();
+// }
 
 // ketika humberger menu di klik
 document.querySelector('#hamburger-menu').onclick = (e) => {
